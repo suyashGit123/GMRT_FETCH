@@ -1,9 +1,9 @@
 # GMRT_FETCH
-# GMRT_FETCH
 
 The Classifier is divided into 2 modules:
 1.) FETCH
 2.) Pysigproc
+</br>
 Both of these modules and their dependencies have been installed on the GPU server.
 The generation of the candidates(.h5 files) is done using candmaker command .For avoiding memory errors we have modified the candmaker command to :
 candmaker.py -n 1 --frequency_size 256 --time_size 256 --cand_param_file cands.csv --plot --fout /data/candidates/
