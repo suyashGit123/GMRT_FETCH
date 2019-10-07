@@ -14,10 +14,11 @@ The pysigproc notebook is more for simulation and understanding , which is why t
 As of now we have generated candidates using pysigproc, doing the same with candmaker has failed due to memory errors. Suggestions by Devansh and Kshitij to resolve it are :</br>
 1.	Use High Performance Computer ( done)</br>
 2.	Use FRB with smaller DM</br>Training   ( Optional ) :</br>
+# Train
 The train.py command can be used to finetune the models  which are present in FETCH module.</br>
 INPUT:  1.) model index [ refer file models_list.csv]</br>
         2.)A training dataset [ A csv file with headers candidate h5’s and their labels ]</br>
-Predict :</br>
+# Predict :
 Predicts candidates living in directory /data/candidates </br>
 INPUT:  1.) model index [ refer file models_list.csv]</br>
         2.) Path to directory </br>
