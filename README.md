@@ -1,6 +1,6 @@
 # GMRT_FETCH
 
-The candidate preparation of FETCH is divided into 3 scripts:
+The candidate preparation of FETCH is divided into 3 scripts:</br>
 1.) pysigproc.py ( Contains definition of functions for generating a sigproc file)</br>
 2.) candidate.py(function definitions for generating H5 files)</br>
 3.) candmaker.py( calls functions defined  in candidate.py and h5plotter.py)
