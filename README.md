@@ -7,7 +7,7 @@ The candidate preparation of FETCH is divided into 3 scripts:</br>
 2.) candidate.py(function definitions for generating H5 files)</br>
 3.) candmaker.py( calls functions defined  in candidate.py and h5plotter.py)</br>
 
-The machine learning stage comprisesof 2 scripts i.e. train.py and predict.py
+The machine learning stage comprises of 2 scripts i.e. train.py and predict.py
 ___
 
 **Note** : The changes for the raw file variation of FETCH are different and the below listed changes ar only for the GMRT filterbank file processing 
