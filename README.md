@@ -24,6 +24,8 @@ The original package can be found at [FETCH](https://github.com/devanshkv/fetch)
 
 **Note** : Multiple instancesof filterbank files can be passed to FETCH inside the input csv file </br>
 
+### Automating the process
+
 The output of the first stage of candidate preparation resides in the path to directory passed in the input csv file. and then run the command shown below for running the CNN on the candidate files .</br>
 >predict.py --data_dir /data/candidates/ --model index
 
@@ -39,6 +41,13 @@ It also logs in the time taken for end to end processing and also the binary res
 
 ---
 ### Estimated time taken
+Below is the estimated time for bandwise change in processing for file with 6 samples and 2K channels:</br>
+
+| Band          | Are           |
+| ------------- |:-------------:|
+| Band 3        |  5min         |
+| Band 4        |  ~1 to 2 min  |
+| Band 5        |  < 1 min      | 
 
 
 
