@@ -1,8 +1,11 @@
 # GMRT_FETCH
 
-The Classifier is divided into 2 modules:</br>
-1.) FETCH</br>
-2.) Pysigproc</br>
+The candidate preparation of FETCH is divided into 3 scripts:
+1.) pysigproc.py ( Contains definition of functions for generating a sigproc file)</br>
+2.) candidate.py(function definitions for generating H5 files)</br>
+3.) candmaker.py( calls functions defined  in candidate.py and h5plotter.py)
+
+
 </br>
 Both of these modules and their dependencies have been installed on the GPU server.</br>
 The generation of the candidates(.h5 files) is done using candmaker command .For avoiding memory errors we have modified the candmaker</br> command to :</br>
