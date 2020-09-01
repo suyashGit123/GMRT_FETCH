@@ -26,10 +26,10 @@ The original package can be found at [FETCH](https://github.com/devanshkv/fetch)
 
 ### Automating the process
 
-The output of the first stage of candidate preparation resides in the path to directory passed in the input csv file. and then run the command shown below for running the CNN on the candidate files .</br>
+The output of the first stage of candidate preparation resides in the path to directory passed in the input csv file.Then run the command shown below for running the CNN on the candidate files .</br>
 >predict.py --data_dir /data/candidates/ --model index
 
-The index is an letter from 'a-h' (lower case) and it chooses the CNN for FRB classifcation .We suggest setting it to 'a'</br>
+The index is a letter from 'a-h' (lower case) and it is used to choose the CNN for FRB classifcation .We suggest setting it to 'a'</br>
 
 ---
 Instead of using the above sequential approach we have automated the process of candidate preparation and prediction using the auto.py script.</br>
