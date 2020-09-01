@@ -22,7 +22,7 @@ The input of candmaker script is a csv file which contains parameters of FRB in 
 The numpy errors for the GMRT filterbank files have been removed by altering the candidate.py and changing the mode parameter of pad_along_axis function
 The original package can be found at [FETCH](https://github.com/devanshkv/fetch)
 
-**Note** : Multiple instancesof filterbank files can be passed to FETCH inside the input csv file </br>
+**Note** : Multiple instances of filterbank files can be passed to FETCH inside the input csv file </br>
 
 ### Automating the process
 
