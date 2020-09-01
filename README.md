@@ -28,13 +28,18 @@ The output of the first stage of candidate preparation resides in the path to di
 >predict.py --data_dir /data/candidates/ --model index
 
 The index is an letter from 'a-h' (lower case) and it chooses the CNN for FRB classifcation .We suggest setting it to 'a'</br>
+
 ---
 Instead of using the above sequential approach we have automated the process of candidate preparation and prediction using the auto.py script.</br>
 The input and output file directories can be set explicitly in the script, but can also be set using the command :
 
 >python auto.py --pin /pathto/input/directory --pout /path to/output/directory
 
-It also logs in the time taken for end to end processing and also the binary result of classification
+It also logs in the time taken for end to end processing and also the binary result of classification. Other options like cleaning the directory before writing the candidates to it can be accessed by settig the 'clean'flag
+
+---
+### Estimated time taken
+
 
 
 
