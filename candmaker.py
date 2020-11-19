@@ -98,6 +98,8 @@ def cand2h5(cand_val):
     if args.plot:
         logging.info('Displaying the candidate')
         plot_h5(fout, show=False, save=True, detrend=False)
+        logging.info('plotting successful')
+        print('process over')
     return None
 
 
